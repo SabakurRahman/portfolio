@@ -99,7 +99,7 @@ const Experience = () => {
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Bootstrap</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
 
