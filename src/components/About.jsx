@@ -2,9 +2,11 @@ import React from "react";
 import aboutPic from "../assets/about-pic.png";
 import exparienceIcon from "../assets/experience.png";
 import educationIcon from "../assets/education.png";
-import arrowIcon from "../assets/arrow.png";
 
 const About = () => {
+  const textContainerStyle = {
+    textAlign: "justify",
+  };
   return (
     <section id="about">
       <p className="section__text__p1">Get To Know More</p>
@@ -29,7 +31,7 @@ const About = () => {
               <h3>Experience</h3>
               <p>
                 1.5+ years <br />
-                Backend Development
+                Full Stack Development
               </p>
             </div>
             <div className="details-container">
@@ -39,23 +41,20 @@ const About = () => {
             </div>
           </div>
           <div className="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+            <p style={textContainerStyle}>
+              Hey there, I'm Sbakur Rahman Shakib, a results-driven full-stack
+              software developer with expertise in Laravel and React. A proud
+              graduate of North South University's Computer Science and
+              Engineering program, I thrive on creating seamless digital
+              experiences. My skills range from crafting clean, efficient code
+              to developing user-centric applications. Eager to explore new
+              opportunities and collaborations, I'm excited about the
+              intersection of technology and innovation. Let's connect and
+              discuss how I can bring your next project to life.
             </p>
           </div>
         </div>
       </div>
-      <img
-        src={arrowIcon}
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "/experience")}
-      />
     </section>
   );
 };

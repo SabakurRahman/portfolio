@@ -13,9 +13,12 @@ const Navbar = () => {
     <div>
       {/* Desktop Navbar */}
       <nav id="desktop-nav">
-        <div className="logo">
-          <img src={logo} />
-        </div>
+        <Link to="/">
+          <div className="logo">
+            <img src={logo} />
+          </div>
+        </Link>
+
         <div>
           <ul className="nav-links">
             <li>

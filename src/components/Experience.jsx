@@ -30,14 +30,14 @@ const Experience = () => {
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Java</h3>
-                  <p>Mid Lavel</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>Spring Boot</h3>
-                  <p>Mid Lavel</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -50,10 +50,11 @@ const Experience = () => {
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
-                  <h3>MongoDb</h3>
-                  <p>Beginner</p>
+                  <h3>RESTful API</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
+
               {/* Repeat similar structure for other skills */}
             </div>
           </div>
@@ -78,21 +79,14 @@ const Experience = () => {
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>HTML</h3>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
                 <img src={checkmark} alt="Experience icon" className="icon" />
                 <div>
                   <h3>CSS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src={checkmark} alt="Experience icon" className="icon" />
-                <div>
-                  <h3>SaSS</h3>
-                  <p>Basic</p>
+                  <p>Mid Lavel</p>
                 </div>
               </article>
               <article>
@@ -100,6 +94,13 @@ const Experience = () => {
                 <div>
                   <h3>Bootstrap</h3>
                   <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src={checkmark} alt="Experience icon" className="icon" />
+                <div>
+                  <h3>Tailwind</h3>
+                  <p>Mid Lavel</p>
                 </div>
               </article>
 

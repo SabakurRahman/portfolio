@@ -15,11 +15,16 @@ const Projects = () => {
             <div className="article-container">
               <img src={project1} alt="Project 1" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">
+              Amazone Clone
+            </h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/SabakurRahman/amazon-frontend")
+                }
               >
                 Github
               </button>
@@ -35,11 +40,14 @@ const Projects = () => {
             <div className="article-container">
               <img src={project2} alt="Project 2" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project Two</h2>
+            <h2 className="experience-sub-title project-title">E-commerce</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/SabakurRahman/ecom-frontend")
+                }
               >
                 Github
               </button>
@@ -55,13 +63,14 @@ const Projects = () => {
             <div className="article-container">
               <img src={project3} alt="Project 3" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">
-              Project Three
-            </h2>
+            <h2 className="experience-sub-title project-title">Admin Panel</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/SabakurRahman/Laravel-admin")
+                }
               >
                 Github
               </button>
@@ -75,12 +84,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <img
-        src={arrow}
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "/contact")}
-      />
     </section>
   );
 };
