@@ -3,10 +3,14 @@ import arrow from "../assets/arrow.png";
 import project1 from "../assets/project-1.png";
 import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
+import { Helmet } from "react-helmet-async";
 
 const Projects = () => {
   return (
     <section id="projects">
+      <Helmet>
+        <title>Project</title>
+      </Helmet>
       <p className="section__text__p1">Browse My Recent</p>
       <h1 className="title">Projects</h1>
       <div className="experience-details-container">

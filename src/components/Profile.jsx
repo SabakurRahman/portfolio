@@ -4,6 +4,7 @@ import shakibProfilePicture from "../assets/shakib.jpg";
 import linkdin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import cvpdf from "../assets/sabakur-rahman-shakib.pdf";
+import { Helmet } from "react-helmet-async";
 
 const Profile = () => {
   const navigate = useNavigate();
@@ -36,6 +37,9 @@ const Profile = () => {
 
   return (
     <section id="profile">
+      <Helmet>
+        <title>Home</title>
+      </Helmet>
       <div className="section__pic-container">
         <img
           id="round-pic"

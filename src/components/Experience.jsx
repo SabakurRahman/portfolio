@@ -1,10 +1,13 @@
 import React from "react";
 import checkmark from "../assets/checkmark.png";
-import arrow from "../assets/arrow.png";
+import { Helmet } from "react-helmet-async";
 
 const Experience = () => {
   return (
     <section id="experience">
+      <Helmet>
+        <title>Experience</title>
+      </Helmet>
       <p className="section__text__p1">Explore My</p>
       <h1 className="title">Experience</h1>
       <div className="experience-details-container">
@@ -109,12 +112,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <img
-        src={arrow}
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "/projects")}
-      />
     </section>
   );
 };

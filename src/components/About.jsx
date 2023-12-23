@@ -2,6 +2,7 @@ import React from "react";
 import aboutPic from "../assets/about-pic.png";
 import exparienceIcon from "../assets/experience.png";
 import educationIcon from "../assets/education.png";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const textContainerStyle = {
@@ -9,6 +10,9 @@ const About = () => {
   };
   return (
     <section id="about">
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <p className="section__text__p1">Get To Know More</p>
       <h1 className="title">About Me</h1>
       <div className="section-container">
