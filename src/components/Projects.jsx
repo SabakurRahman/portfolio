@@ -34,7 +34,9 @@ const Projects = () => {
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() =>
+                  (window.location.href = "https://amazon.sabakurdev.xyz/")
+                }
               >
                 Live Demo
               </button>
@@ -50,7 +52,7 @@ const Projects = () => {
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
                   (window.location.href =
-                    "https://github.com/SabakurRahman/ecom-frontend")
+                    "https://github.com/SabakurRahman/e-commerce-laravel-vue")
                 }
               >
                 Github
@@ -67,20 +69,29 @@ const Projects = () => {
             <div className="article-container">
               <img src={project3} alt="Project 3" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Admin Panel</h2>
+            <h2 className="experience-sub-title project-title">
+              HR Management{" "}
+            </h2>
+            <span className="project-span">
+              Email: sabakur.shakib@gmail.com
+              <br></br> Password: 12345678
+            </span>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
                 onClick={() =>
                   (window.location.href =
-                    "https://github.com/SabakurRahman/Laravel-admin")
+                    "https://github.com/SabakurRahman/Human-Resource-Management")
                 }
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() =>
+                  (window.location.href =
+                    "https://hrm.sabakurdev.xyz/hr-dashboard")
+                }
               >
                 Live Demo
               </button>
